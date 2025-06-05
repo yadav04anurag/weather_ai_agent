@@ -1,7 +1,7 @@
 const { GoogleGenAI } = require('@google/genai');
 const readlineSync = require('readline-sync');
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCUPo3g4rf0a9pnIeomErMjWJoX1OYg5A8" });
+const ai = new GoogleGenAI({ apiKey: "   YOUR API KEY " });
 
 const prompt = `
 You are an AI agent that strictly responds in JSON format only.
